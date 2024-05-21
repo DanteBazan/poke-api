@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #111;
+  color: #eee;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: rgb(233, 233, 48);
+}
+
+/* card */
+
+.container__search-pokemon {
+  margin: auto;
+  margin-top: 3rem;
+  /* background: grey; */
+  max-width: 800px;
+}
+
+.container__search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__search input {
+  padding: 0.8rem 1rem;
+  background: #3b3a3a;
+  color: #eee;
+  border: 0;
+}
+
+.container__search input::placeholder {
+  color: #eee;
+}
+
+.container__search input:focus-visible {
+  outline: none;
+}
+
+.container__search button {
+  border: 0;
+  padding: 0.8rem;
+  background: rgb(233, 233, 48);
+}
