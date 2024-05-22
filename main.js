@@ -18,10 +18,10 @@ button.addEventListener("click", () => {
       }" class="card__img" />
         </div>
         <div class="card__description">
-          <p>Nombre:${data.name}</p>
+          <p>Nombre :${data.name}</p>
           <p>Tipo: ${data.types[0].type.name}</p>
-          <p>Peso:${data.weight / 10} kg</p>
-          <p>Altura:${data.height / 10} mts</p>
+          <p>Peso :${data.weight / 10} kg</p>
+          <p>Altura: ${data.height / 10} mts</p>
         </div>
       </div>
         `;

@@ -62,7 +62,6 @@ h1 {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  flex-wrap: wrap;
 }
 
 .card {
@@ -71,17 +70,20 @@ h1 {
   flex-direction: column;
   padding: 0.5rem;
   border-radius: 0.5rem;
+  border: 1px solid rgb(222, 222, 16);
 }
 
 .card__img {
   width: 15rem;
-  background: ;
 }
 
 .card__description {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  padding: 1rem;
+  border: 1px solid rgb(222, 222, 16);
+  border-radius: 0.5rem;
   gap: 0.5rem;
 }
 
