@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="./imgs/icon-poke-api/png-clipart-ios-7-icons-pokemon-logo.png"
+    />
     <link rel="stylesheet" href="./styles/style.css" />
     <title>Poke API</title>
   </head>
@@ -10,18 +14,27 @@
     <h1>Poke Api</h1>
     <div class="container__search-pokemon">
       <div class="container__search">
-        <!-- <h2>Ingrese el Pokemon que desee buscar</h2> -->
         <div class="container__search-input">
-          <input type="text" placeholder="Ingrese el pokemon" />
+          <input type="number" placeholder="Ingrese el pokemon" id="input" />
         </div>
         <div class="container__search-button">
-          <button>Buscar</button>
+          <button id="button">Buscar</button>
         </div>
       </div>
-      <div class="card__container">
-        <div class="card"></div>
-      </div>
     </div>
-    <script type="module" src="./main.js"></script>
+    <div class="card__container">
+      <!-- <div class="card">
+        <div class="container__card-img">
+          <img src="./imgs/pokemones/eevee.png" alt="Eevee" class="card__img" />
+        </div>
+        <div class="card__description">
+          <p>Nombre:Eevee</p>
+          <p>Tipo: Nose</p>
+          <p>Peso:</p>
+          <p>Altura:</p>
+        </div>
+      </div> -->
+    </div>
+    <script src="./main.js"></script>
   </body>
 </html>
